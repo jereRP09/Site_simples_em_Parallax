@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+*{
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.img1{
+    position: relative;
+    background-image: url('imagens/imagem1.webp'); 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.90;
+    width: 100%;
+    min-height: 100%;
+}
+.secao_secundaria_no_background{
+    height: 400px;
+    padding-top: 50px;
+    text-align: center;
+    background-color:rgba(22, 22, 39, 0.267);
+}
+#imagem2.secao_secundaria{
+    position: relative;
+    background-image: url('imagens/imagem2.webp'); 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.90;
+    width: 100%;
+    min-height: 100%;
+}
+#imagem3.secao_secundaria{
+    position: relative;
+    background-image: url('imagens/imagem3.webp'); 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.90;
+    width: 100%;
+    min-height: 100%;
+
+}
