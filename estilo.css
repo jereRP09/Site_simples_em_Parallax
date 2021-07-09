@@ -7,6 +7,7 @@
     margin-right: 0px;
     height: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1150px;
 }
 .img1{
     position: relative;
@@ -24,6 +25,7 @@
     padding-top: 50px;
     text-align: center;
     background-color:rgba(22, 22, 39, 0.267);
+    font-size: 27pt;
 }
 #imagem2.secao_secundaria{
     position: relative;
@@ -47,4 +49,43 @@
     width: 100%;
     min-height: 100%;
 
+}
+@media(max-width:1157px){
+    .secao_secundaria_no_background{
+        height: 225px;
+    }
+}
+@media(max-width:919px){
+    .secao_secundaria_no_background{
+        height: 260px;
+    }
+}
+@media(max-width:790px){
+    .secao_secundaria_no_background{
+        height: 330px;
+    }
+}
+@media(max-width:710px){
+    .secao_secundaria_no_background{
+        height: 350px;
+    }
+}
+@media(max-width:616px){
+    .secao_secundaria_no_background{
+        height: 390px;
+    }
+}
+@media(max-width:550px){
+    .secao_secundaria_no_background{
+        height: 435px;
+    }
+}@media(max-width:518px){
+    .secao_secundaria_no_background{
+        height: 475px;
+    }
+}
+@media(max-width:510px){
+    .secao_secundaria_no_background{
+        height: 490px;
+    }
 }
